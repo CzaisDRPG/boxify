@@ -1,6 +1,6 @@
 <template>
     <v-app-bar class="pl-4">
-        <RouterLink to="/" class="text-h3 text-decoration-none text-white">Boxify</RouterLink>
+        <RouterLink to="/" class="text-h3 text-decoration-none text-white">Boxifyy</RouterLink>
         <div class="w-25 ml-3">
             <v-text-field v-model="text" variant="underlined" placeholder="Add notes"></v-text-field>
         </div>
