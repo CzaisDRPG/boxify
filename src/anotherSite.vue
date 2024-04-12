@@ -76,7 +76,7 @@
     import { ref, onMounted } from 'vue'
     import { createDirectus, createItem, readItems, deleteItem, rest, updateItem, deleteItems } from '@directus/sdk'
     import draggable from 'vuedraggable'
-    const client = createDirectus('http://127.0.0.1:8055').with(rest());
+    const client = createDirectus('https://d92a-193-160-11-29.ngrok-free.app').with(rest());
 
     const text = ref("")
     const allBox = ref([])
