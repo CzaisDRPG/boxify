@@ -45,7 +45,7 @@
   <script setup>
     import {onMounted, ref} from 'vue'
     import { createDirectus, createItem, deleteItem, deleteItems, readItems, rest, updateItem } from '@directus/sdk'
-    const client = createDirectus('https://d92a-193-160-11-29.ngrok-free.app').with(rest());
+    const client = createDirectus('https://pleasantly-easy-rat.ngrok-free.app ').with(rest());
     
     const allBox = ref([])
     const allItems = ref([])
