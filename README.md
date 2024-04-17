@@ -1,24 +1,23 @@
-# my-vue-app
+### the code of boxify 
+simple note app coded on vue and directus (database), designed with vuetify 
 
-## Project setup
-```
-npm install
-```
+database structure (you need this to open up the project): 
+TABLE: box 
+  
+  fields: 
+  - id,
+  - boxTitle (String),
+  - boxType (int),
+  - isEditing (int)
+TABLE: item
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+  fields: 
+  - id,
+  - itemName (String),
+  - boxId (int),
+  - isCharacterize (int),
+  - col (int)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+local database on port 8055
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+check out new version boxify 2.0 with cleaner html code and designed in tailwind
