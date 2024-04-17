@@ -10,7 +10,7 @@ TABLE: box
   - boxTitle (String),
   - boxType (int),
   - isEditing (int)
-  - 
+    
 TABLE: item
 
   fields: 
