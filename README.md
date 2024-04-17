@@ -2,6 +2,7 @@
 simple note app coded on vue and directus (database), designed with vuetify 
 
 database structure (you need this to open up the project): 
+
 TABLE: box 
   
   fields: 
@@ -9,6 +10,7 @@ TABLE: box
   - boxTitle (String),
   - boxType (int),
   - isEditing (int)
+  - 
 TABLE: item
 
   fields: 
