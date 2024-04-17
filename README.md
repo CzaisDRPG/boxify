@@ -1,4 +1,4 @@
-### the code of boxify 
+### the code of Boxify 
 simple note app coded on vue and directus (database), designed with vuetify 
 
 database structure (you need this to open up the project): 
