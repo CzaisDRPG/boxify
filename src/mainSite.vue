@@ -45,8 +45,8 @@
   <script setup>
     import {onMounted, ref} from 'vue'
     import { createDirectus, createItem, deleteItem, deleteItems, readItems, rest, updateItem } from '@directus/sdk'
-    const client = createDirectus('https://rndii-193-160-11-29.a.free.pinggy.link/').with(rest());
-    
+    const client = createDirectus('http://localhost:8055/').with(rest());
+    //https://pleasantly-easy-rat.ngrok-free.app/
     const allBox = ref([])
     const allItems = ref([])
     const isSorting = ref(false)
@@ -133,9 +133,19 @@
 
 
     onMounted(async () => {
+
       allBox.value = await client.request(readItems('box'));
       allItems.value = await client.request(readItems('item'))
       
+      // async function test() {
+      //   const data = await fetch(
+      //   "https://trainbuddy.netlify.app/api/bruno")
+      //   return data.json()
+      // }
+      
+      // const data = await test()
+      // allBox.value = data.data
     })
+
   
   </script>
